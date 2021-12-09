@@ -1,0 +1,27 @@
+img{
+  max-width: 100%;
+}
+
+body{
+  margin: 0px;
+  background-color: pink;
+  animation: vision 20s infinite linear;
+}
+
+@keyframes vision{
+  0%{
+    background-color: purple;
+  }
+  25%{
+    background-color: orange;
+  }
+  50%{
+    background-color: yellow;
+  }
+  75{
+    background-color: green;
+  }
+  100%{
+    background-color: blue;
+  }
+}
